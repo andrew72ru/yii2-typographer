@@ -1,6 +1,6 @@
 {
     "name": "andrew72ru/yii2-typographer",
-    "description": "Typographer based on Evgeny Muravjev Typograph, http://mdash.ru",
+    "description": "Typographer for Yii2 based on Evgeny Muravjev Typograph, http://mdash.ru",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","typographer"],
     "license": "MIT",
