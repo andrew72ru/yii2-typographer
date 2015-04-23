@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist andrew72ru/yii2-typographer "*"
+php composer.phar require --prefer-dist andrew72ru/yii2-typographer "dev-master"
 ```
 
 or add
 
 ```
-"andrew72ru/yii2-typographer": "*"
+"andrew72ru/yii2-typographer": "dev-master"
 ```
 
 to the require section of your `composer.json` file.
