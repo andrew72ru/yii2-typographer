@@ -10,7 +10,7 @@
             "email": "andrew72ru@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev-master",
     "require": {
         "yiisoft/yii2": "*",
         "kix/mdash": "0.5.x"
