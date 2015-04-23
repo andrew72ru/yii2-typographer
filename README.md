@@ -50,13 +50,13 @@ Set up you application components:
 Usage
 -----
 
-Where you text in paragraph, and you not need to convert this to oher paragraphs:
+If your text is in paragraph, and you don’t need to convert this to other paragraphs:
 
 ```php
 <p class="lead"><?= Yii::$app->typographer->directTypo($text, true /* true – use Yii ntext formatter, false - do not use */)?></p>
 ```
 
-Where you text is text with `\n` or markdown text
+If your text with \n or markdown text
 
 ```php
 <?= Yii::$app->typographer->typo($text) ?>
