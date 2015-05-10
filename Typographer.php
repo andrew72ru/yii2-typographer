@@ -51,7 +51,7 @@ class Typographer extends Component
      * @param $text
      * @return string
      */
-    public function typo($text, $ntext = false)
+    public function typo($text)
     {
         $t = $this->Setup();
         if($this->markdown)
@@ -68,11 +68,10 @@ class Typographer extends Component
      * @param bool $ntext
      * @return string
      */
-    public function directTypo($text, $ntext = false)
+    public function directTypo($text)
     {
         $t = $this->Setup();
-        if($ntext)
-            $text = Yii::$app->formatter->asNtext($text);
+        $text = Markdown::processParagraph($text, $this->markdownType);
         $t->set_text($text);
         return $t->apply();
     }

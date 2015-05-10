@@ -53,7 +53,7 @@ Usage
 If your text is in paragraph, and you don’t need to convert this to other paragraphs:
 
 ```php
-<p class="lead"><?= Yii::$app->typographer->directTypo($text, true /* true – use Yii ntext formatter, false - do not use */)?></p>
+<p class="lead"><?= Yii::$app->typographer->directTypo($text)?></p>
 ```
 
 If your text with \n or markdown text
