@@ -13,6 +13,7 @@
     "minimum-stability": "stable",
     "require": {
         "yiisoft/yii2": "*",
+        "michelf/php-markdown": "*",
         "kix/mdash": "0.5.x"
     },
     "autoload": {

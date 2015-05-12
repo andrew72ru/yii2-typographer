@@ -5,6 +5,7 @@ use Yii;
 use EMT\EMTypograph;
 use yii\base\Component;
 use yii\helpers\Markdown;
+use Michelf\MarkdownExtra;
 
 /**
  * A text (or HTML) formatter for Yii2 with Evgeny Muravjev Typograph, http://mdash.ru
@@ -55,7 +56,7 @@ class Typographer extends Component
     {
         $t = $this->Setup();
         if($this->markdown)
-            $text = Markdown::process($text, $this->markdownType);
+            $text = MarkdownExtra::defaultTransform($text);
 
         $t->set_text($text);
         return $t->apply();
