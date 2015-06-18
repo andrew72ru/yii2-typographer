@@ -41,7 +41,7 @@ Set up you application components:
                 'Number.math_chars' => 'on',
                 // Other parametrs – see http://mdash.ru
             ],
-            'markdown' => true // Whether to use yii\helpers\Markdown to convert text
+            'markdown' => true, // Whether to use yii\helpers\Markdown to convert text
             'markdownType' => 'gfm' // what type of markdown use in converter
         ]
     ]
